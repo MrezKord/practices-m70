@@ -1,0 +1,15 @@
+{
+    "name": "mmd/2",
+    "autoload": {
+        "psr-4": {
+            "": "Classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MrezKord",
+            "email": "mohammadrezasaeedi8295@gmail.com"
+        }
+    ],
+    "require": {}
+}
