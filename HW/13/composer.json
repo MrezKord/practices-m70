@@ -1,0 +1,19 @@
+{
+    "name": "mmd/11",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App",
+            "Core\\": "Core",
+            "Model\\": "Model"
+        }
+    },
+    "authors": [
+        {
+            "name": "MrezKord",
+            "email": "mohammadrezasaeedi8295@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
