@@ -9,3 +9,4 @@
  4. Routes
  5. Connection to DB
  6. Config with .env file
+ 7. ERD
