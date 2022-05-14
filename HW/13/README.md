@@ -1,7 +1,6 @@
-**
+
 ## Hospital - Phase 1
 
-**
 **Done parts :** 
 
  1. Front
