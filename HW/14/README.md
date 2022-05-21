@@ -9,7 +9,7 @@
  5. Register
  6. Create profile for doctors
  7. Approval of doctors and presidents by active presidents
- 8. َApply migrations
+ 8. Apply migrations
  9. Validation
  10. .env File
 
