@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .container{
+    @apply bg-gray-300
+} */
+
+.form {
+    @apply grid grid-cols-2 gap-4
+}
+
+/* normal input field */
+
+.field {
+    @apply shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
+    focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 
+    dark:border-gray-600 dark:placeholder-gray-400 dark:text-white 
+    dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm
+}
+
+.field-file {
+    @apply block w-full h-[43px] text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 cursor-pointer dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
+}
+
+.field-radio {
+    @apply w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600
+}
+
+.label-radio {
+    @apply ml-2 text-sm font-medium text-gray-900 dark:text-gray-300
+}
+
+.label-field {
+    @apply block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400
+}
+
+/* error input field field */
+
+.field-error{
+    @apply bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm rounded-lg  
+    focus:ring-red-500 focus:border-red-500 block w-full p-2.5 dark:bg-red-100 dark:border-red-400
+}
+
+.label-field-error {
+    @apply block mb-2 text-sm font-medium text-red-700 dark:text-red-500
+}
+
+.error-message{
+    @apply mt-2 text-sm text-red-600 dark:text-red-500
+}
+
+/* Welcome Page */
+/* create btn */
+
+.btn {
+    @apply text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl 
+    focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium 
+    rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2
+}
+
+.welcome-container {
+    @apply w-[400px] h-[300px] fixed top-[150px] left-[100px] bg-gray-100 rounded-lg shadow-lg
+    p-4 flex flex-col gap-3
+}
+
+.title {
+    @apply mb-6 text-[30px] text-center
+}
